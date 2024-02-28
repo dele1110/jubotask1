@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  height: 8190px;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.footer {
+  max-width: 100%;
+  height: 600px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 5500px;
+  text-align: center;
+}
+
+.header {
+  max-width: 1440px;
+  height: 100px;
+  gap: 36px;
+  border: 1px solid black;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.header__nav__ul2 {
+  display: flex;
+  gap: 36px;
+}
+.header__main {
+  max-width: 100%;
+  height: 699px;
+  border: 1px solid red;
+  margin-top: 163px;
+  display: flex;
+  margin-left: 150px;
+}
+.header__main__text {
+  width: 50%;
+  border: 1px solid black;
+}
+.header__main__text__h1 {
+  font-size: 170px;
+  font-weight: 800;
+  line-height: 255px;
+}
+.header__main__text__h2 {
+  font-size: 170px;
+  font-weight: 800;
+  line-height: 255px;
+}
+.header__main__text__p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33px;
+}
+.header__main__text__btn {
+  max-width: 150.39px;
+  height: 58px;
+  font-size: 18px;
+  margin-left: 150px;
+}
+
+.main {
+  max-width: 1170px;
+  height: 148px;
+  margin-left: 135px;
+  margin-top: 1035px;
+  border: 1px solid red;
+}
+.main__section1 {
+  text-align: left;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 30px;
+  display: flex;
+}
+.main__section1__text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+.main__section2 {
+  max-width: 100%;
+  height: 500px;
+  border: 1px solid red;
+  margin-top: 284px;
+  display: flex;
+}
+.main__section2__text {
+  max-width: 50%;
+  height: 500px;
+  border: 1px solid red;
+}
+.main__section2__text__h6 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22.4px;
+  margin-top: 20px;
+}
+.main__section2__text__h2 {
+  max-width: 423px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 54px;
+  color: #131313;
+  margin-top: 50px;
+}
+.main__section2__text__p {
+  width: 470px;
+  height: 63px;
+  margin-top: 50px;
+  text-align: left;
+  color: #AAAAAA;
+}
+.main__section2__text__btn {
+  width: 153px;
+  height: 58px;
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  margin-top: 50px;
+}
+.main__section2__box {
+  display: flex;
+}
+.main__section2__box__left {
+  margin-top: 50px;
+}
+.main__section3 {
+  max-width: 100%;
+  height: 100px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.main__section3__box {
+  width: 160px;
+  height: 100px;
+}
+.main__section4 {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid red;
+  margin-top: 50px;
+  margin: auto;
+}
+.main__section4__text {
+  margin-top: 10px;
+}
+.main__section4__text__p {
+  font-size: 14px;
+  list-style: 22.4px;
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+}
+.main__section4__text__h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 54px;
+  display: flex;
+}
+.main__section4__imgs {
+  margin: auto;
+  margin-left: 25px;
+}
+.main__section5 {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 50px;
+}
+.main__section5__text__boxs {
+  display: flex;
+}
+.main__section6 {
+  max-width: 100%;
+  height: 427px;
+  margin-top: 50px;
+  border: 1px solid red;
+}
+.main__section6__top {
+  text-align: center;
+  margin-top: 10px;
+}
+.main__section6__top__h3 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22.4px;
+  text-align: center;
+}
+.main__section6__top__h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+}
+.main__section6__bottom {
+  display: flex;
+}
+.main__section6__bottom__box {
+  width: 545px;
+  height: 256px;
+  border: 1px solid red;
+  text-align: left;
+}
+.main__section7 {
+  max-width: 100%;
+  height: 598px;
+  border: 1px solid red;
+  margin: auto;
+  display: flex;
+}
+.main__section7__left {
+  width: 50%;
+  height: 598px;
+  border: 1px solid black;
+}
+.main__section7__right {
+  width: 50%;
+  height: 598px;
+  border: 1px solid red;
+  margin: auto;
+}
+.main__section7__right__p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22.4px;
+  margin-top: 70px;
+}
+.main__section7__right__h1 {
+  max-width: 415px;
+  height: 108px;
+  margin-top: 50px;
+  border: 1px solid red;
+}
+.main__section7__right__pix {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23.4px;
+  color: #AAAAAA;
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=main.css.map */
